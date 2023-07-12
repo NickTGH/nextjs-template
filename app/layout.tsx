@@ -31,7 +31,7 @@ export default function RootLayout({
           </Link>
         </nav>
         <main className="main-container">{children}</main>
-        <footer>Better than the Joker 🍔</footer>
+        <footer>Better than the Joker 🍔(Created by Nick)</footer>
       </body>
     </html>
   );
