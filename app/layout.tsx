@@ -23,11 +23,11 @@ export default function RootLayout({
             LOGO/HOME
           </Link>
 
-          <Link className="navigation-link" href="/about">
-            ABOUT
+          <Link className="navigation-link" href="/order">
+            ORDER
           </Link>
-          <Link className="navigation-link" href="/contact">
-            CONTACT
+          <Link className="navigation-link" href="/help">
+            HELP
           </Link>
         </nav>
         <main className="main-container">{children}</main>
