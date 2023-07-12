@@ -87,7 +87,7 @@ footer {
 
 .card-name {
   font-size: 28px;
-  color: #fd0202;
+  color: #090450;
 }
 
 .columns {
@@ -126,7 +126,7 @@ footer {
   flex-direction: column;
   align-items: center;
   max-width: 300px;
-  border: 1px solid #fd0202;
+  border: 3px solid #090450;
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
@@ -177,5 +177,25 @@ footer {
   .container {
     padding-left: 4px;
     padding-right: 4px;
+  }
+
+  .card-name {
+    font-size: 28px;
+    color: #fdf902;
+  }
+
+  .section-title {
+    font-size: 50px;
+    color: #fdf902;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    border: 3px solid #fdf902;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
   }
 }
